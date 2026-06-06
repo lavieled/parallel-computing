@@ -1,0 +1,41 @@
+# Build output
+*.o
+*.obj
+*.ko
+*.mod.o
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# Test / local scratch
+test*
+*_test.*
+*test*.cpp
+*test*.c
+temp_grader/
+output*.txt
+example.out
+
+# Docs / packaging (not source)
+*.pdf
+*.zip
+*.7z
+*.rar
+
+# Logs & caches
+*.log
+__pycache__/
+.venv/
+node_modules/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
